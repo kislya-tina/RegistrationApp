@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RegistrationApp</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="your_id">Your ID</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="wel_come">Welcome FirstUser</string>
+    <string name="you">возьмите нас в нпо</string>
+    <string name="app_in_name">Register App</string>
+    <string name="app_regist">Your ID</string>
+    <string name="app_signIn">Sign In</string>
+    <string name="app_register">Зарегистрироваться</string>
+    <string name="app_password">Password</string>
+    <string name="app_phone">Phone</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_second2">Second2Activity</string>
+    <string name="did">You did it</string>
+</resources>

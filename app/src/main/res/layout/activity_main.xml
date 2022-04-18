@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/egermejster"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="329dp"
+        android:layout_height="541dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/img2" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="38dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/NPO" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="540dp"
+            app:srcCompat="@drawable/img_3" />
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="90dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="88dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/app_regist"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/username"
+            app:layout_constraintStart_toStartOf="@+id/username" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="199dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="250dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:text="@string/app_signIn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="94dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/app_password"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/pass"
+            app:layout_constraintStart_toStartOf="@+id/pass" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="209dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="45dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:gravity="left"
+            android:inputType="numberPassword"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="206dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="35dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>
